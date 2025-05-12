@@ -7,7 +7,7 @@ public class UpdateProfileRequest {
 	private String lastName;
 	private String mobileNumber;
 	
-	public UpdateProfileRequest(String email, String firstName, String lastName, String mobileNumber) {
+	private UpdateProfileRequest(String email, String firstName, String lastName, String mobileNumber) {
 		super();
 		this.email = email;
 		this.firstName = firstName;
